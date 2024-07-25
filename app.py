@@ -4,7 +4,7 @@ from input import ui_input
 from generate import generate
 
 def few_shot():
-    st.title("Baseline Evaluation Pipeline")
+    st.title("LLM Based Tabular Data Generator")
     st.subheader("Few Shot Inference")
     
     config = ui_input()
